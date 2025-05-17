@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SynapseAI: Autonomous Research Agent with LLM + RAG
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+SynapseAI is an autonomous research agent that leverages the power of Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) to deliver contextual insights, research summaries, and data-driven reports in real-time. It is designed to streamline research workflows and enhance decision-making through AI-powered data processing and generation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✅ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* 🔗 Seamless authentication with Clerk for secure user management
+* 🧠 Autonomous research capabilities with LLM and RAG integration
+* 📝 Dynamic data storage and querying using Convex.dev
+* 🎨 Responsive and interactive UI built with Shadcn UI and Tailwind CSS
+* ⚡️ Optimized for rapid data processing and real-time insights
+* 🧠 AI-powered document analysis and summary generation using SDK.Vercel.ai and Google Gemini AI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Frontend:** Next.js, Tailwind CSS, Shadcn UI
+* **Authentication:** Clerk
+* **Backend:** Convex.dev for serverless data storage and retrieval
+* **AI Integration:** LLM, RAG, SDK.Vercel.ai, Google Gemini AI
 
-## Learn More
+## 📦 Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/yuvidew/synapseai.git
+   cd synapseai
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
 
-## Deploy on Vercel
+   ```bash
+   pnpm add
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   pnpm dev
+   ```
+
+## 🧪 Usage
+
+* Register/Login via Clerk authentication
+* Input research topics or documents
+* AI processes and generates contextual insights, summaries, or bullet points
+* Access data and reports via a responsive, interactive UI
+
+## 🛠️ Deployment
+
+* Build the app:
+
+  ```bash
+  npm run build
+  ```
+* Deploy to Vercel or your preferred platform.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 📫 Contact
+
+For any inquiries or feedback, reach out at [your.email@example.com](mailto:yd00102@gmail.com).
